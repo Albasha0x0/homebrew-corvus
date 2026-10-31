@@ -1,28 +1,28 @@
 class Corvus < Formula
   desc "MCP server for reverse engineering .NET assemblies and native binaries"
   homepage "https://github.com/Albasha0x0/Corvus"
-  version "2.8.0"
+  version "2.9.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.8.0/corvus-osx-arm64.tar.gz"
-      sha256 "25056985d1848a19cf88c5d460a58d2d346cd49463fcaaf0d89e2bd8831e7e66"
+      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.9.0/corvus-osx-arm64.tar.gz"
+      sha256 "13e599023c6df6f8e211ca1fd0343361e49ccf3b878dc03d43d6b8ad47640be7"
     end
     on_intel do
-      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.8.0/corvus-osx-x64.tar.gz"
-      sha256 "75dde0a810db13a1c85fc41269c62edf30dcdbf9b4f1e710a64ccf6e072b7558"
+      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.9.0/corvus-osx-x64.tar.gz"
+      sha256 "7a892d6828a09193b569accee5d4ded6d7220c182d5c6efd3bba512d200a6ab5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.8.0/corvus-linux-arm64.tar.gz"
-      sha256 "6f0d54638b1200dd39863fd3076431fccd8ac642ea0f2747c8ec73373b65ef4c"
+      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.9.0/corvus-linux-arm64.tar.gz"
+      sha256 "1bb29604fe0ec8429ba37b20622137ab6d757e7a4a251087ca6c9a64d779da22"
     end
     on_intel do
-      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.8.0/corvus-linux-x64.tar.gz"
-      sha256 "a0ae45539fe0b401567b0da53eb97a00bc7be96fc922e1b2c6db57e4a1fde940"
+      url "https://github.com/Albasha0x0/Corvus/releases/download/v2.9.0/corvus-linux-x64.tar.gz"
+      sha256 "27ed9e4cc4c8da17b7e863c39fee709f999626efc2371d5d8dedcdb07a8b2c9f"
     end
   end
 
